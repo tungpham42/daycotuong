@@ -1,0 +1,14 @@
+<div class="min-h-screen bg-[#10231e] text-stone-100">
+  <header class="border-b border-white/10">
+    <div class="mx-auto flex max-w-5xl items-center justify-between p-4">
+      <h1 class="text-xl font-bold tracking-wide">Dạy Cờ Tướng</h1>
+      <nav class="flex gap-5">
+        <a routerLink="/learn" routerLinkActive="border-b-2 border-emerald-300" class="pb-1">Learn</a>
+        <a routerLink="/play" routerLinkActive="border-b-2 border-emerald-300" class="pb-1">Play</a>
+      </nav>
+    </div>
+  </header>
+  <main class="mx-auto max-w-5xl p-4 md:p-8">
+    <router-outlet />
+  </main>
+</div>
